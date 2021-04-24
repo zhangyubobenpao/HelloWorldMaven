@@ -5,15 +5,7 @@
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
   <version>1.0.5-RELEASE</version>
-  <packaging>war</packaging>
-  <plugin>  
-    <groupId>org.apache.maven.plugins</groupId>  
-    <artifactId>maven-war-plugin</artifactId>  
-    <version>2.1.1</version>  
-    <configuration>  
-    <warName>${project.build.name}</warName> 
-    </configuration>  
-</plugin> 
+  <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
